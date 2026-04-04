@@ -10,11 +10,13 @@ header {
     height: auto;
     background-color: rgb(0, 110, 255);
     color: white;
-    overflow: hidden
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 15px 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 footer {
     text-align: center;
@@ -24,6 +26,7 @@ footer {
     height: auto;
     background-color: rgb(0, 110, 255);
     color: white;
+    margin-top: 20px;
 }
 .button{
     text-align: center;
@@ -37,4 +40,11 @@ footer {
 }
 .button:hover{
     background-color: rgb(0, 38, 255);
+}
+h1{
+    text-align: center
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
