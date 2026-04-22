@@ -33,6 +33,10 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
 .button{
     text-align: center;
     font-size: 30px;
