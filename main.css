@@ -37,12 +37,14 @@ footer {
     display: flex;
     flex-direction: row;
 }
+a{
+    text-decoration: none;
+}
 .button{
     text-align: center;
     font-size: 30px;
     height: 34px;
     color: white;
-    float: left;
     padding: 5px;
     transition-property: background-color;
     transition-duration: 500ms;
